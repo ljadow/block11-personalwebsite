@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 245, 251);
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 5vh;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+#intro {
+
+    padding: 2px 20px;
+}
+
+#descr\+image {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    height: 2.5vh;
+    background-color: rgb(27, 65, 79);
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#contacts {
+    padding-left: 5px;
+}
+
+.social-icon {
+    width: 15px;
+    height: 15px;
+    padding: 4px 0px 0px 4px;
+}
