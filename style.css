@@ -26,8 +26,16 @@ body {
 
 #descr\+image {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: top;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#prof-pic{
+    padding: 5px;
 }
 
 footer {
