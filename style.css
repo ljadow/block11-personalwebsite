@@ -15,12 +15,16 @@ body {
     padding: 10px;
 }
 
+.page-head{
+    height: 15vh;
+    align-content: center;
+}
+
 .page-title {
     text-align: center;
 }
 
 #intro {
-
     padding: 2px 20px;
 }
 
@@ -40,16 +44,16 @@ body {
 
 footer {
     display: flex;
-    justify-content: right;
     align-items: center;
-    position: relative;
-    height: 2.5vh;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     background-color: rgb(27, 65, 79);
     color: whitesmoke;
-    padding: 5px;
+    padding-left: 1em;
 }
 
-#contacts {
+#footer-contacts {
     padding-left: 5px;
 }
 
