@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,43 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
-        <!-- navigation bar to be copied to all HTML pages -->
-        <section id="nav-bar">
-            <h2 id="nav-title">Lindsay's Site</h2>
-            <nav id="nav-menu">
-                <a class="menu-item" href="homepage.html">Home</a>
-                <a class="menu-item" href="about.html">About</a>
-                <a class="menu-item" href="portfolio.html">Portfolio</a>
-            </nav>
-        </section>
 
-         <!-- portfolio page title -->
-    <h1 class="page-title">YOU ARE AT THE PORTFOLIO PAGE</h1>
+<body>
+    <!-- navigation bar to be copied to all HTML pages -->
+    <section id="nav-bar">
+        <h2 id="nav-title">Lindsay's Site</h2>
+        <nav id="nav-menu">
+            <a id="home-menu" href="homepage.html">Home</a>
+            <a id="portfolio-menu" href="portfolio.html">Portfolio</a>
+            <a id="about-menu" href="about.html">About</a>
+            <a id="contact-menu" href="contact.html">Contact</a>
+        </nav>
+    </section>
+
+    <!-- portfolio page title -->
+    <section class="page-head">
+        <h1 class="page-title">YOU ARE AT THE PORTFOLIO PAGE</h1>
+    </section>
+
+
+    <!-- same on all pages -- copy over -->
+    <footer>
+        <p>Get in touch : </p>
+        <div id="footer-contacts">
+            <a class="social-link" href="https://www.linkedin.com/in/lindsayjadow/" target="_blank"
+                rel="noopener noreferrer">
+                <img class="social-icon"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+                    alt="linkedin-logo" />
+            </a>
+            <a class="social-link" type="email" href="mailto:lsjadow@gmail.com" target="_blank"
+                rel="noopener noreferrer">
+                <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="email-icon" />
+            </a>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
