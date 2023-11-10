@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Helvetica;
+    height:100%;
 }
 
 #nav-bar {
@@ -15,6 +16,26 @@ body {
     height: 50px;
 }
 
+#home-menu:hover{
+    background-color: red;
+    color: white;
+}
+
+#portfolio-menu:hover{
+    background-color: blue;
+    color:white;
+}
+
+#about-menu:hover{
+    background: purple;
+    color: white;
+}
+
+#contact-menu:hover{
+    background-color: green;
+    color:white;
+}
+
 .page-head {
     height: 15vh;
     background-color: blue;
@@ -24,6 +45,7 @@ body {
 }
 h1{
     text-transform: uppercase;
+    color: red;
     -webkit-text-stroke: 1px white;
 }
 
@@ -45,10 +67,58 @@ h1{
     padding: 5px;
 }
 
+#card-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.box1{
+    color: white;
+    text-align: center;
+    background-color: #50C878;
+    border-radius: 10%;    
+    margin: 10px;
+    padding: 10px;
+}
+
+.box2{
+    color: white;
+    text-align: center;
+    background-color: #088F8F;
+    border-radius: 10%;    
+    margin: 10px;
+    padding: 10px;
+}
+
+.box3{
+    color: white;
+    text-align: center;
+    background-color: #50C878;
+    border-radius: 10%;    
+    margin: 10px;
+    padding: 10px;
+}
+
+.box4{
+    color: white;
+    text-align: center;
+    background-color: #088F8F;
+    border-radius: 10%;    
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
 footer {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative; /*figure out why absolute didn't keep it at the bottom of the window*/
     width: 100%;
     bottom: 0;
     background-color: red;
@@ -65,4 +135,17 @@ footer {
     width: 15px;
     height: 15px;
     padding: 4px 0px 0px 4px;
+}
+
+#contact-form{
+    background: purple;
+    color: white;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 15%;
+    text-align: center;
+}
+
+#submit-button:hover{
+    background-color: greenyellow;
 }
