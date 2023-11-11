@@ -28,19 +28,22 @@
         <h2>Contact Form</h2>
         <form action="thankyou.html">
             <label for="fullname"></label>
-            <input type="text" name="fullname" placeholder="Full Name" /><br /><br />
+            <input type="text" name="fullname" placeholder="Full Name" /> <br /><br />
             <label for="email"></label>
-            <input type="email" placeholder="Email Address" /> 
-            <br/><br/>
+            <input type="email" placeholder="Email Address" />
+            <br /><br />
+            <label for="message"></label>
 
-            <input type="radio" value="optin" />
-            <label for="optin">I want regular updates<br/>
-            <input type="radio" value="optout" />
-            <label for="optout">Just reach out once</label><br />
+            <textarea id="message-box" name="message" placeholder="What's on your mind?"></textarea>
+            <br /><br />
 
-            <br/>
+            <input name="radios" type="radio" value="optin" />
+            <label for="radios">I want regular updates</label><br />
 
-            <input id="submit-button" type="submit" value="Talk to Me"/>
+            <input name="radios" type="radio" value="optout" />
+            <label for="radios">Just reach out once</label><br /><br />
+
+            <input id="submit-button" type="submit" value="Talk to Me" />
 
         </form>
 
