@@ -152,6 +152,11 @@ h1 {
 #submit-button:hover {
     background-color: greenyellow;
 }
+
+#message-box{
+    height: 15vh;
+    width: 60vw;
+}
 /* ^^ contact styling end */
 
 
@@ -180,3 +185,4 @@ footer {
     padding: 4px 0px 0px 4px;
 }
 /* ^^ footer styling end */
+
